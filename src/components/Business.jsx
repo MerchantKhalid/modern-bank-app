@@ -29,11 +29,11 @@ const Business = () => {
     <h2 className={styles.heading2}>
       You Do The Business,<br className="sm:block hidden" />We Will Handle The Money
     </h2>
-    <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-10`}>
+    <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
     Unlimited 1.5% Cash Back on every purchase, every day; 5% Cash Back on hotels and rental cars booked through Capital One Travel (terms apply)
     </p>
 
-    <Button className="" />
+    <Button styles="mt-10" />
 
     </div>
     <div className={`${layout.sectionImg} flex-col`}>
